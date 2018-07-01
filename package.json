@@ -1,5 +1,5 @@
 {
-  "name": "react-native-fast-image",
+  "name": "react-native-fast-image-without-webp",
   "version": "4.0.14",
   "description": "🚩 FastImage, performant React Native image component.",
   "keywords": [
@@ -9,17 +9,17 @@
     "image",
     "priority"
   ],
-  "homepage": "https://github.com/DylanVann/react-native-fast-image#readme",
+  "homepage": "https://github.com/davidfant/react-native-fast-image-without-webp#readme",
   "bugs": {
-    "url": "https://github.com/DylanVann/react-native-fast-image/issues"
+    "url": "https://github.com/davidfant/react-native-fast-image-without-webp/issues"
   },
   "license": "(MIT AND Apache-2.0)",
-  "author": "Dylan Vann <dylan@dylanvann.com> (https://dylanvann.com)",
+  "author": "David Fant <david@fant.io> (https://fant.io)",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DylanVann/react-native-fast-image.git"
+    "url": "git+https://github.com/davidfant/react-native-fast-image-without-webp.git"
   },
   "scripts": {
     "format": "prettier --write --list-different ./src/*.js",
