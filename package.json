@@ -23,7 +23,7 @@
   },
   "scripts": {
     "format": "prettier --write --list-different ./src/*.js",
-    "prepare": "mkdir -p ios/Vendor && cd ios/Vendor && git clone git@github.com:davidfant/SDWebImage.git && cd SDWebImage && git checkout 4.4.1-no-webp",
+    "prepare": "mkdir -p ios/Vendor && cd ios/Vendor && git clone git@github.com:davidfant/SDWebImage.git && cd SDWebImage && git checkout 4.4.1-no-webp && git submodule update --init --recursive",
     "test": "yarn run format && yarn run test:jest",
     "test:jest": "jest ./src/*.js"
   },
